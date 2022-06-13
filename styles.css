@@ -1,0 +1,469 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+body {
+	background-color: #ededed;
+    font-family: cursive;
+	
+}
+a{color:#000
+
+}
+
+.header-top {
+	top: 0;
+	position: relative;
+	width: 100%;
+	height: 65px;
+	color: #262321;
+	background-color: rgb(227, 222, 222);
+	box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.6);
+	text-align: center;
+	font-size: 40px;
+	font-weight: bold;
+}
+header {
+    top: 150;
+    position: ;
+    width: 100%;
+	margin:0 auto;
+    height: 50px;
+    background-color: rgb(227, 222, 222);
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    color: #e3d1d1;
+}
+
+.header-left {
+    /* background-color: #666; */
+	text-align: center;
+    margin-left: 30px;
+    height: 100px;
+    display: flex;
+	justify-content: space-between;
+    align-items: center;
+}
+
+.name {
+	text-align: center;
+	margin-left: 100px;
+	width: 60px;
+    height: 52px;
+    font-size: 14px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    color: #262321;
+    transition: 0.1s;
+}
+
+.name:hover {
+	cursor: pointer;
+	background: #b8aeae; /* Цвет фона под ссылкой */ 
+    color: #ffe; /* Цвет ссылки */ 
+}
+
+.inform {
+	text-align: center;
+	margin-left: 10px;
+	width: 65px;
+    height: 52px;
+    font-size: 14px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    color: #262321;
+    transition: 0.1s;
+}
+
+.inform:hover {
+	cursor: pointer;
+	background: #b8aeae; /* Цвет фона под ссылкой */ 
+    color: #ffe; /* Цвет ссылки */ 
+}
+
+.contacs {
+	text-align: center;
+	width: 88px;
+    height: 52px;
+    font-size: 14px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    color: #262321;
+    transition: 0.1s;
+}
+
+.contacs:hover {
+	cursor: pointer;
+	background: #b8aeae; /* Цвет фона под ссылкой */ 
+    color: #ffe; /* Цвет ссылки */ 
+}
+
+.discounts {
+    /* background-color: antiquewhite; */
+	text-align: center;
+	width: 75px;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    color: #262321;
+    transition: 0.2s;
+}
+
+.discounts:hover {
+	cursor: pointer;
+	background: #b8aeae; /* Цвет фона под ссылкой */ 
+    color: #ffe; /* Цвет ссылки */ 
+}
+.menu {
+    /* background-color: antiquewhite; */
+	text-align: center;
+	width: 110px;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    color: #262321;
+    transition: 0.2s;
+}
+.menu:hover {
+	cursor: pointer;
+	background: #b8aeae; /* Цвет фона под ссылкой */ 
+    color: #ffe; /* Цвет ссылки */ 
+}
+.header-right {
+    /* background-color: #666; */
+    height: 50px;
+    display: flex;
+	justify-content: right;
+    font-size: 14px;
+    font-weight: 500;
+}
+.adres {
+    /* background-color: bisque; */
+	width: 80px;
+    height: 52px;
+    display: flex;
+	justify-content: space-between;
+    align-items: center;
+    color: #262321;
+    transition: 0.2s;
+	position: absolute; right:100px
+}
+
+.adres:hover {
+	cursor: pointer;
+	background: #b8aeae; /* Цвет фона под ссылкой */ 
+    color: #ffe; /* Цвет ссылки */ 
+}
+
+
+
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    /* background-color: aquamarine; */
+}
+
+.container2 {
+    /* background-color: bisque; */
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.container3 {
+    /* background-color: bisque; */
+    text-align: justify;
+    margin-bottom: 20px;
+	width: 450px;
+}
+
+.container4 {
+    /* background-color: bisque; */
+	vertical-align: baseline;
+    text-align: justify;
+    margin-bottom: 20px;
+	width: 450px;
+	margin-left:500px;
+	margin-bottom:500px;
+}
+
+
+table.text  {
+    width:  100%; /* Ширина таблицы */
+    border-spacing: 100; /* Расстояние между ячейками */
+	text-align: justify;
+   }
+   table.text td {
+    width: 50%; /* Ширина ячеек */
+    vertical-align: top; /* Выравнивание по верхнему краю */
+   }
+   td.rightcol { /* Правая ячейка */ 
+	text-align: justify;
+   }
+   
+ul {
+    width: 180px; /* Ширина меню */
+    list-style: none; /* Для списка убираем маркеры */
+    margin: 1; /* Нет отступов вокруг */
+    padding: 0; /* Убираем поля вокруг текста */
+    font-family: cursive; /* Рубленый шрифт для текста меню */
+    font-size: 12pt; /* Размер названий в пункте меню */
+	text-align: center;
+   }
+   li ul {
+    position: absolute; /* Подменю позиционируются абсолютно */
+    display: none; /* Скрываем подменю */
+    margin-left: 110px; /* Сдвигаем подменю вправо */
+    margin-top: -3em; /* Сдвигаем подменю вверх */
+   }
+   li a {
+    display: flex; /* Ссылка как блочный элемент */
+    text-decoration: none; /* Подчеркивание у ссылок убираем */
+    color: #666; /* Цвет текста */
+    background-color: rgb(227, 222, 222); /* Цвет фона */
+    border-bottom: none; /* Границу снизу не проводим */
+   }
+   li a:hover {
+    color: #262321; /* Цвет текста активного пункта */
+    background-color: rgb(227, 222, 222); /* Цвет фона активного пункта */
+   }
+   li:hover ul {
+    display: block; /* При выделении пункта курсором мыши отображается подменю */
+   }
+   .brd {
+    border-bottom: 0px solid #ccc; /* Линия снизу */
+   }
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+	max-width: 600px;
+	max-height: 600px;
+	position: relative;
+	margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	width: auto;
+	margin-top: -22px;
+	padding: 16px;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	transition: 0.6s ease;
+	border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+	right: 0;
+	border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+	background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text12 {
+	color: #f2f2f2;
+	font-size: 15px;
+	padding: 8px 12px;
+	position: absolute;
+	bottom: 8px;
+	width: 100%;
+	text-align: center;
+}
+
+.table {
+text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+	color: #000;
+	font-size: 12px;
+	padding: 8px 12px;
+	position: absolute;
+	top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+	cursor: pointer;
+	height: 15px;
+	width: 15px;
+	margin: 0 2px;
+	background-color: #bbb;
+	border-radius: 50%;
+	display: inline-block;
+	transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+	background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+	-webkit-animation-name: fade;
+	-webkit-animation-duration: 1.5s;
+	animation-name: fade;
+	animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+	from {opacity: .4}
+	to {opacity: 1}
+}
+
+
+.container-link {
+	display: flex;
+	justify-content: space-around;
+	width: 60%;
+	margin: auto;
+	flex-wrap: wrap;
+	
+}
+.
+.product-wrapper {	
+	display:block;
+	width: 100%;
+	transition: width .2s;
+	line-height: 120px;
+	margin: left;
+}
+.product-wrapper2 {	
+	display:block;
+	width: 100%;
+	transition: width .2s;
+	line-height: 120px;
+	margin: left;
+	top: 500;
+}
+
+.product {
+	display: block;
+	border: 2px solid #544f4f;
+	border-radius: 3px;
+	position: relative;
+	background: #fff;
+	margin: 40px 40px 20px 0;
+	text-decoration: none;
+	color: #474747;
+	z-index: 0;
+	height: 300px;
+	width: 190px;
+	
+	
+}
+.products {
+	list-style: none;
+	margin: 0 -20px 0 0;
+	padding: 0;
+	
+}
+.product-photo {
+	position: relative;
+	padding-bottom: 100%;
+	overflow: hidden;
+}
+.product-photo img {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	max-width: 100%;
+	max-height: 100%;
+	margin: auto;
+	transition: transform .4s ease-out;
+}
+.product:hover .product-photo img {
+	transform: scale(1.05);
+}
+.product p {
+	position: relative;
+	margin: 0;
+	font-size: 1em;
+	line-height: 1.4em;
+	height: 5.6em;
+	overflow: hidden;
+	display: flex;
+    align-items: flex-end;
+}
+.Stock-block {
+	border: 2px solid #544f4f;
+	background: #fff;
+    color: #262321;
+    width: 100%;
+    height: 300px;
+    margin: 40px auto;
+    padding: 10px 20px;
+    border-radius: 10px;
+    display: flex;
+    align-items: ;
+    justify-content: space-between;
+    transition: 0.2s;
+}
+
+.Stock-block:hover {
+    opacity: 0.9;
+}
+
+.Stock-name {
+    width: 50%;
+    text-align: flex;
+    font-size: 24px; 
+    font-weight: 500;
+	
+	}
+
+.Stock-img {
+    /* background-color: aqua; */
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.del{
+	text-decoration: line-through;
+	font-size: 16px;
+	color: rgba(0,0,0,0.5);
+	display: flex;
+    align-items: flex-end;
+}
+.p {
+	height: 50px;
+}
+#footer {
+    left: 0; bottom: 0; /* Левый нижний угол */
+    padding: 10px; /* Поля вокруг текста */
+	background-color: rgb(227, 222, 222); /* Цвет фона */
+    color: #262321; /* Цвет текста */
+    width: 100%; /* Ширина слоя */
+		display: flex;
+	flex-direction: column
+}
